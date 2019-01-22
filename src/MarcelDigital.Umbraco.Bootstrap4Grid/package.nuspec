@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>MarcelDigital.Umbraco.Bootstrap4GridElements</id>
+    <version>0.0.1</version>
+    <authors>Marcel Digital</authors>
+    <owners>Marcel Digital</owners>
+    <iconUrl>http://marceldigital.blob.core.windows.net/nuget/logo-64x64.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/marceldigital/Umbraco-Grid-Bootstrap-4-Elements</projectUrl>
+    <description>
+      Bootstrap 4 grid elements based on Bootstrap 4 components.
+    </description>
+    <releaseNotes>
+      Initial Release.
+    </releaseNotes>
+    <copyright>Copyright ©2019 Marcel Digital</copyright>
+    <tags>Umbraco, Bootstrap</tags>
+    <dependencies />
+  </metadata>
+  <files>
+    <file src="Content\**\*" target="content" />
+  </files>
+</package>
