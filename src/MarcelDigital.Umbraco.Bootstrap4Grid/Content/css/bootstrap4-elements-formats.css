@@ -1,0 +1,15 @@
+﻿/**umb_name:Lead*/
+p.lead {
+    font-size: 125%;
+}
+
+/**umb_name:Small*/
+p.small {
+    font-size: 80%;
+}
+
+/**umb_name:Highlight*/
+.mark {
+    padding: .2em;
+    background-color: #fcf8e3;
+}
