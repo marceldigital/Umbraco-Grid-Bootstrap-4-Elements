@@ -45,7 +45,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Content\App_Plugins\Bootstrap4GridElements\package.manifest" />
+    <None Include="Content\App_Plugins\Bootstrap4GridElements\RTE\render.cshtml" />
+    <None Include="Content\App_Plugins\Bootstrap4GridElements\Web.config" />
     <None Include="package.nuspec" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\App_Plugins\Bootstrap4GridElements\RTE\editor.controller.js" />
+    <Content Include="Content\App_Plugins\Bootstrap4GridElements\RTE\editor.html" />
+    <Content Include="Content\css\bootstrap4-elements-formats.css" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

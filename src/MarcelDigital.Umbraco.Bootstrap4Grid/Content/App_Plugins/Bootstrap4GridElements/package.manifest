@@ -1,4 +1,15 @@
 {
-  "javascript": [],
+  "gridEditors": [
+    {
+      "name": "Rich Text Editor",
+      "alias": "md.bf4gridelements.rte",
+      "view": "/app_plugins/bootstrap4gridelements/rte/editor.html",
+      "icon": "icon-article",
+      "render": "/app_plugins/bootstrap4gridelements/rte/render.cshtml"
+    }
+  ],
+  "javascript": [
+    "/app_plugins/bootstrap4gridelements/rte/editor.controller.js"
+  ],
   "css": []
 }
