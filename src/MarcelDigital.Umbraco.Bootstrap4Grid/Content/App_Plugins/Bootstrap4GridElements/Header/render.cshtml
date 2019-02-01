@@ -1,0 +1,14 @@
+﻿@model dynamic
+@{ 
+    var builder = new TagBuilder(Model.value.options.tagName.ToString());
+
+    builder.AddCssClass(Model.value.options.className.ToString());
+
+    if(Model.value.text != null) {
+        var text = Model.value.text.ToString();
+        builder.MergeAttribute("id", TagBuilder.CreateSanitizedId(text, "-"));
+        builder.SetInnerText(text);
+    }
+}
+
+@Html.Raw(builder.ToString())

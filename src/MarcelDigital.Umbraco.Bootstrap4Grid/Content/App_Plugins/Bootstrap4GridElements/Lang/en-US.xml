@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<language alias="en" intName="English (US)" localName="English (US)" lcid="" culture="en-US">
+  <area alias="bf4elheader">
+    <key alias="visualSettingsTitle">Visual Setting</key>
+    <key alias="visualSettingsDescription">Defines the header style in the content.</key>
+    <key alias="visualSettingsH1">Header Style 1</key>
+    <key alias="visualSettingsH2">Header Style 2</key>
+    <key alias="visualSettingsH3">Header Style 3</key>
+    <key alias="visualSettingsH4">Header Style 4</key>
+    <key alias="visualSettingsDisplay1">Display Style 1</key>
+    <key alias="visualSettingsDisplay2">Display Style 2</key>
+    <key alias="visualSettingsDisplay3">Display Style 3</key>
+    <key alias="visualSettingsDisplay4">Display Style 4</key>
+    <key alias="structualSettingsTitle">Structual Setting</key>
+    <key alias="structualSettingsDescription">Communicates the organization of the content.</key>
+    <key alias="structualSettingsOptionDescription">Renders the header tag as a</key>
+    <key alias="structualSettingsParapgraph">No Hierarchy</key>
+    <key alias="structualSettingsH1">Main Heading</key>
+    <key alias="structualSettingsH2">Secondary Heading</key>
+    <key alias="structualSettingsH3">Third Heading</key>
+    <key alias="structualSettingsH4">Fourth Heading</key>
+  </area>
+</language>

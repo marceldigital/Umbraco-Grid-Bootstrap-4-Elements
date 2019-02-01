@@ -1,0 +1,36 @@
+<div ng-controller="md.bf4gridelements.headerTagNameDialog as vm" class="md-bootstrap4el header-settings-dialog">
+    <div class="umb-modalcolumn-header">
+        <h1><localize key="bf4elheader_structualSettingsTitle"></localize></h1>
+        <div><localize key="bf4elheader_structualSettingsDescription"></localize></div>
+    </div>
+    <div class="umb-modalcolumn-body">
+        <div class="umb-dialog-body with-footer">
+            <div class="umb-pane">
+                <div class="umb-insert-code-boxes">
+                    <div class="umb-insert-code-box"
+                         ng-repeat="tagOption in vm.tagOptions"
+                         ng-click="vm.setTagName(tagOption.value)">
+                        <div class="umb-insert-code-box__check" 
+                             ng-class="{'umb-insert-code-box__check--checked': vm.tagName === tagOption.value }">
+                            <i class="icon icon-check"></i>
+                        </div>
+                        <div class="umb-insert-code-box__title"><localize key="{{tagOption.localizationKey}}"></localize></div>
+                        <div class="umb-insert-code-box__description" ng-class="tagOption.value">
+                            <localize key="bf4elheader_structualSettingsOptionDescription"></localize> <code>&lt;{{tagOption.value}}&gt;</code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="umb-dialog-footer btn-toolbar umb-btn-toolbar">
+            <button class="btn btn-link"
+                    ng-click="close()">
+                <localize key="general_cancel"></localize>
+            </button>
+            <button class="btn btn-success"
+                    ng-click="submit(vm.tagName)">
+                <localize key="general_submit"></localize>
+            </button>
+        </div>
+    </div>
+</div>

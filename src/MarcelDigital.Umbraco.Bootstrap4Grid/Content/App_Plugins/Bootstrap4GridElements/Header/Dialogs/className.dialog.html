@@ -1,0 +1,36 @@
+<div ng-controller="md.bf4gridelements.headerClassNameDialog as vm" class="md-bootstrap4el header-settings-dialog">
+    <div class="umb-modalcolumn-header">
+        <h1><localize key="bf4elheader_visualSettingsTitle"></localize></h1>
+        <div><localize key="bf4elheader_visualSettingsDescription"></localize></div>
+    </div>
+    <div class="umb-modalcolumn-body">
+        <div class="umb-dialog-body with-footer">
+            <div class="umb-pane">
+                <div class="umb-insert-code-boxes">
+                    <div class="umb-insert-code-box"
+                         ng-repeat="cssOption in vm.cssOptions"
+                         ng-click="vm.setClassName(cssOption.value)">
+                        <div class="umb-insert-code-box__check" 
+                             ng-class="{'umb-insert-code-box__check--checked': vm.className === cssOption.value }">
+                            <i class="icon icon-check"></i>
+                        </div>
+                        <div class="umb-insert-code-box__title"><localize key="{{cssOption.localizationKey}}"></localize></div>
+                        <div class="preview" ng-class="cssOption.value">
+                            {{vm.text}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="umb-dialog-footer btn-toolbar umb-btn-toolbar">
+            <button class="btn btn-link"
+                    ng-click="close()">
+                <localize key="general_cancel"></localize>
+            </button>
+            <button class="btn btn-success"
+                    ng-click="submit(vm.className)">
+                <localize key="general_submit"></localize>
+            </button>
+        </div>
+    </div>
+</div>
