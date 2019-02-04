@@ -44,12 +44,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Content\App_Plugins\Bootstrap4GridElements\Header\render.cshtml" />
     <None Include="Content\App_Plugins\Bootstrap4GridElements\package.manifest" />
     <None Include="Content\App_Plugins\Bootstrap4GridElements\RTE\render.cshtml" />
     <None Include="Content\App_Plugins\Bootstrap4GridElements\Web.config" />
     <None Include="package.nuspec" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\App_Plugins\Bootstrap4GridElements\Header\Dialogs\className.dialog.controller.js" />
+    <Content Include="Content\App_Plugins\Bootstrap4GridElements\Header\Dialogs\className.dialog.html" />
+    <Content Include="Content\App_Plugins\Bootstrap4GridElements\Header\Dialogs\tagName.dialog.controller.js" />
+    <Content Include="Content\App_Plugins\Bootstrap4GridElements\Header\Dialogs\tagName.dialog.html" />
+    <Content Include="Content\App_Plugins\Bootstrap4GridElements\Header\editor.controller.js" />
+    <Content Include="Content\App_Plugins\Bootstrap4GridElements\Header\editor.css" />
+    <Content Include="Content\App_Plugins\Bootstrap4GridElements\Header\editor.html" />
+    <Content Include="Content\App_Plugins\Bootstrap4GridElements\Lang\en-US.xml" />
     <Content Include="Content\App_Plugins\Bootstrap4GridElements\RTE\editor.controller.js" />
     <Content Include="Content\App_Plugins\Bootstrap4GridElements\RTE\editor.html" />
     <Content Include="Content\css\bootstrap4-elements-formats.css" />

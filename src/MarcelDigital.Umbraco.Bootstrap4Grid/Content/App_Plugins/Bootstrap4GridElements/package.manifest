@@ -2,14 +2,26 @@
   "gridEditors": [
     {
       "name": "Rich Text Editor",
-      "alias": "md.bf4gridelements.rte",
+      "alias": "md.b4elements.rte",
       "view": "/app_plugins/bootstrap4gridelements/rte/editor.html",
       "icon": "icon-article",
       "render": "/app_plugins/bootstrap4gridelements/rte/render.cshtml"
+    },
+    {
+      "name": "Header",
+      "alias": "md.b4elements.header",
+      "view": "/app_plugins/bootstrap4gridelements/header/editor.html",
+      "icon": "icon-font",
+      "render": "/app_plugins/bootstrap4gridelements/header/render.cshtml"
     }
   ],
   "javascript": [
-    "/app_plugins/bootstrap4gridelements/rte/editor.controller.js"
+    "/app_plugins/bootstrap4gridelements/rte/editor.controller.js",
+    "/app_plugins/bootstrap4gridelements/header/editor.controller.js",
+    "/app_plugins/bootstrap4gridelements/header/dialogs/className.dialog.controller.js",
+    "/app_plugins/bootstrap4gridelements/header/dialogs/tagName.dialog.controller.js"
   ],
-  "css": []
+  "css": [
+    "/app_plugins/bootstrap4gridelements/header/editor.css"
+  ]
 }

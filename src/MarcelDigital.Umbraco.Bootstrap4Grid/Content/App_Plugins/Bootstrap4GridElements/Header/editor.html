@@ -1,0 +1,21 @@
+﻿<div ng-controller="md.bf4gridelements.header as vm">
+    <div class="md-bootstrap4el header-editor">
+        <textarea rows="1"
+                  umb-auto-resize
+                  umb-auto-focus
+                  class="textstring input-block-level"
+                  ng-class="control.value.options.className"
+                  id="{{control.uniqueId}}_header"
+                  ng-model="control.value.text"
+                  localize="placeholder"
+                  placeholder="@grid_placeholderWriteHere"></textarea>
+        <div class="header-settings-options">
+            <button type="button" class="btn btn-info" ng-click="vm.openClassNameDialog()">
+                <i class="icon icon-brush"></i> <localize key="bf4elheader_visualSettingsTitle"></localize>
+            </button>
+            <button type="button" class="btn btn-info" ng-click="vm.openTagNameDialog()">
+                <i class="icon icon-code"></i> <localize key="bf4elheader_structualSettingsTitle"></localize>
+            </button>
+        </div>
+    </div>
+</div>
