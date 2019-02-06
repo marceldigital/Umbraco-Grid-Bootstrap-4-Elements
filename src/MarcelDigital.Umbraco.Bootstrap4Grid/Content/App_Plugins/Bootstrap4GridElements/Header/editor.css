@@ -14,6 +14,17 @@
 .md-bootstrap4el.header-editor .h4 {
     font-size: 1.5rem;
 }
+
+.md-bootstrap4el.header-settings-dialog .preview.h5,
+.md-bootstrap4el.header-editor .h5 {
+    font-size: 1.25rem;
+}
+
+.md-bootstrap4el.header-settings-dialog .preview.h6,
+.md-bootstrap4el.header-editor .h6 {
+    font-size: 1rem;
+}
+
 .md-bootstrap4el.header-settings-dialog .preview.display-1,
 .md-bootstrap4el.header-editor .display-1 {
     font-size: 6rem;

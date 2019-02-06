@@ -8,6 +8,8 @@
     <key alias="visualSettingsH2">Header Style 2</key>
     <key alias="visualSettingsH3">Header Style 3</key>
     <key alias="visualSettingsH4">Header Style 4</key>
+    <key alias="visualSettingsH5">Header Style 5</key>
+    <key alias="visualSettingsH6">Header Style 6</key>
     <key alias="visualSettingsDisplay1">Display Style 1</key>
     <key alias="visualSettingsDisplay2">Display Style 2</key>
     <key alias="visualSettingsDisplay3">Display Style 3</key>
@@ -20,5 +22,7 @@
     <key alias="structualSettingsH2">Secondary Heading</key>
     <key alias="structualSettingsH3">Third Heading</key>
     <key alias="structualSettingsH4">Fourth Heading</key>
+    <key alias="structualSettingsH5">Fifth Heading</key>
+    <key alias="structualSettingsH6">Sixth Heading</key>
   </area>
 </language>
