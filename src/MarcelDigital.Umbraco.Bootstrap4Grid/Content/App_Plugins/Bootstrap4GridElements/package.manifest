@@ -35,14 +35,14 @@
             "localizationKey": "bf4elheader_visualSettingsH4",
             "value": "h4"
           },
-          {
+          /*{
             "localizationKey": "bf4elheader_visualSettingsH5",
             "value": "h5"
           },
           {
             "localizationKey": "bf4elheader_visualSettingsH6",
             "value": "h6"
-          },
+          },*/
           {
             "localizationKey": "bf4elheader_visualSettingsDisplay1",
             "value": "display-1"
@@ -80,15 +80,15 @@
           {
             "localizationKey": "bf4elheader_structualSettingsH4",
             "value": "h4"
-          },
-          {
+          }
+          /*{
             "localizationKey": "bf4elheader_structualSettingsH5",
             "value": "h5"
           },
           {
             "localizationKey": "bf4elheader_structualSettingsH6",
             "value": "h6"
-          }
+          }*/
         ]
       }
     }
