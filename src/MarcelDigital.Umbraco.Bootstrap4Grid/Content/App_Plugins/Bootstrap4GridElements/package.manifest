@@ -91,6 +91,14 @@
           }*/
         ]
       }
+      "render": "/app_plugins/bootstrap4gridelements/header/render.cshtml"
+    },
+    {
+      "name": "Embed",
+      "alias": "md.b4elements.embedResponsive",
+      "view": "embed",
+      "icon": "icon-movie-alt",
+      "render": "/app_plugins/bootstrap4gridelements/embedresponsive.cshtml"
     }
   ],
   "javascript": [
