@@ -91,7 +91,6 @@
           }*/
         ]
       }
-      "render": "/app_plugins/bootstrap4gridelements/header/render.cshtml"
     },
     {
       "name": "Embed",
