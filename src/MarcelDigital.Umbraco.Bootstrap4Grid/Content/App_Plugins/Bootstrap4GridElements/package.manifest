@@ -12,7 +12,85 @@
       "alias": "md.b4elements.header",
       "view": "/app_plugins/bootstrap4gridelements/header/editor.html",
       "icon": "icon-font",
-      "render": "/app_plugins/bootstrap4gridelements/header/render.cshtml"
+      "render": "/app_plugins/bootstrap4gridelements/header/render.cshtml",
+      "config": {
+        "defaultHeaderOptions": {
+          "className": "h2",
+          "tagName": "p"
+        },
+        "classNameOptions": [
+          {
+            "localizationKey": "bf4elheader_visualSettingsH1",
+            "value": "h1"
+          },
+          {
+            "localizationKey": "bf4elheader_visualSettingsH2",
+            "value": "h2"
+          },
+          {
+            "localizationKey": "bf4elheader_visualSettingsH3",
+            "value": "h3"
+          },
+          {
+            "localizationKey": "bf4elheader_visualSettingsH4",
+            "value": "h4"
+          },
+          /*{
+            "localizationKey": "bf4elheader_visualSettingsH5",
+            "value": "h5"
+          },
+          {
+            "localizationKey": "bf4elheader_visualSettingsH6",
+            "value": "h6"
+          },*/
+          {
+            "localizationKey": "bf4elheader_visualSettingsDisplay1",
+            "value": "display-1"
+          },
+          {
+            "localizationKey": "bf4elheader_visualSettingsDisplay2",
+            "value": "display-2"
+          },
+          {
+            "localizationKey": "bf4elheader_visualSettingsDisplay3",
+            "value": "display-3"
+          },
+          {
+            "localizationKey": "bf4elheader_visualSettingsDisplay4",
+            "value": "display-4"
+          }
+        ],
+        "tagNameOptions": [
+          {
+            "localizationKey": "bf4elheader_structualSettingsParapgraph",
+            "value": "p"
+          },
+          {
+            "localizationKey": "bf4elheader_structualSettingsH1",
+            "value": "h1"
+          },
+          {
+            "localizationKey": "bf4elheader_structualSettingsH2",
+            "value": "h2"
+          },
+          {
+            "localizationKey": "bf4elheader_structualSettingsH3",
+            "value": "h3"
+          },
+          {
+            "localizationKey": "bf4elheader_structualSettingsH4",
+            "value": "h4"
+          }
+          /*{
+            "localizationKey": "bf4elheader_structualSettingsH5",
+            "value": "h5"
+          },
+          {
+            "localizationKey": "bf4elheader_structualSettingsH6",
+            "value": "h6"
+          }*/
+        ]
+      }
     },
     {
       "name": "Embed",

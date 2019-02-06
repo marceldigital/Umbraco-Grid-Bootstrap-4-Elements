@@ -4,10 +4,7 @@
 
         if (!$scope.control.value) {
             $scope.control.value = {
-                options: {
-                    className: "h2",
-                    tagName: "p"
-                }
+                options: angular.copy($scope.control.editor.config.defaultHeaderOptions)
             };
         }
 
@@ -26,7 +23,8 @@
                 },
                 dialogData: {
                     currentText: $scope.control.value.text ? angular.copy($scope.control.value.text) : "Lorem Ipsum",
-                    currentClassName: angular.copy($scope.control.value.options.className)
+                    currentClassName: angular.copy($scope.control.value.options.className),
+                    options: $scope.control.editor.config.classNameOptions
                 }
             });
         };
@@ -38,7 +36,10 @@
                 callback: function (tagName) {
                     $scope.control.value.options.tagName = tagName;
                 },
-                dialogData: angular.copy($scope.control.value.options.tagName)
+                dialogData: {
+                    currentTagName: angular.copy($scope.control.value.options.tagName),
+                    options: $scope.control.editor.config.tagNameOptions
+                }
             });
         };
     }
